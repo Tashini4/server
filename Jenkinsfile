@@ -17,7 +17,6 @@ pipeline {
         //    }
          }
        }
-       
        //deploye docker hub
          stage('Deploy to Docker Hub') {
             steps {
